@@ -118,17 +118,3 @@ footer{
   white-space: nowrap;
 }
 
-.scrolling {
-  animation: marquee 2s linear infinite;
-  display: inline-block;
-  padding-right: 10px;
-}
-
-@keyframes marquee {
-  from {
-    transform: translateX(0);
-  }
-  to { 
-    transform: translateX(-100%);
-  }
-}
